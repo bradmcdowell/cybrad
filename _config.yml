@@ -18,9 +18,9 @@ timezone: Australia/Melbourne
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Cybrad # the main title
+title: cybrad # the main title
 
-tagline: Some notes to help # it will display as the sub-title
+tagline: Some Tagline # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A website to assist with CyberArk Privilege Cloud installations
