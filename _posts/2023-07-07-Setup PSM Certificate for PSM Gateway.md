@@ -2,7 +2,7 @@
 title: Setup PSM Certificate for PSM Gateway
 date: 2023-07-07 10:10:10 +1100
 categories: [cyberark, pam]
-tags: [tag1]     # TAG names should always be lowercase
+tags: [cyberark,html5 gateway,ssl,certificate]     # TAG names should always be lowercase
 ---
 
 ## Setup PSM Certificate for PSM Gateway
