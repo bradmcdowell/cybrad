@@ -20,7 +20,7 @@ timezone: Australia/Melbourne
 
 title: cybrad # the main title
 
-tagline: Some Tagline # it will display as the sub-title
+tagline: # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A website to assist with CyberArk Privilege Cloud installations
