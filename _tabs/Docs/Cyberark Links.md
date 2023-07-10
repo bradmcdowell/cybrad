@@ -18,6 +18,12 @@ order: 1
 [Outbound traffic network and port requirements](https://docs.cyberark.com/Product-Doc/OnlineHelp/PrivCloud-SS/Latest/en/Content/Privilege%20Cloud/PrivCloud-sys-req-networks.htm)
 
 
+Allow connector server outbound connectivity to the follwing hostnames. 
+
+There are 2 seperate variables in the hostnames below.
+<subdomain> = The subdomain found in the URL ends with cyberark.cloud eg https://bradtest1.cyberark.cloud/
+<Identity-tenant-id> = The subdomain found in the Identity Administration portal eg  https://aaw9999999.id.cyberark.cloud/admin
+
 VAULT TCP 1858
 ```
 vault-<subdomain>.privilegecloud.cyberark.cloud
@@ -59,6 +65,8 @@ secure.globalsign.com
 ```
 
 ### Connector Management
+
+Connector Managment is installed vi the https://<subdomain>.cyberark.cloud/connectormanagement URL and the installation instructions can be found [here](https://docs.cyberark.com/Product-Doc/OnlineHelp/PrivCloud-SS/Latest/en/Content/Privilege%20Cloud/PrivCloud-ConnectorInstall-CM.htm#RuntheConnectorManagementConnectorinstaller).
 
 Handy command to watch the Connector Managment Logs
 
