@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
+icon: fas fa-link
 order: 1
 ---
 ### CyberArk Privilege Cloud Software Download Links
