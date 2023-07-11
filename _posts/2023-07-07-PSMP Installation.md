@@ -1,7 +1,7 @@
 ---
 title: PSMP Installation
 date: 2023-07-07 11:10:10 +1100
-categories: [cyberark, psmp]
+categories: [cyberark, Privilege Cloud, PSMP]
 tags: [psmp]     # TAG names should always be lowercase
 ---
 

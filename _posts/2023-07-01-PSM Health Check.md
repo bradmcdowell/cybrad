@@ -1,7 +1,7 @@
 ---
 title: CyberArk PSM Health Check
 date: 2023-07-07 10:10:10 +1100
-categories: [cyberark, pam]
+categories: [cyberark, Privilege Cloud, PSM]
 tags: [cyberark,PSM Health Check]     # TAG names should always be lowercase
 ---
 

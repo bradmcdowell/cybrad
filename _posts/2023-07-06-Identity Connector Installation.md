@@ -1,7 +1,7 @@
 ---
 title: Install Cyberark Identity Connector
 date: 2023-07-06 10:10:10 +1100
-categories: [cyberark,identity]
+categories: [cyberark, Privilege Cloud, Identity]
 tags: [cyberark,identity connector]     # TAG names should always be lowercase
 ---
 

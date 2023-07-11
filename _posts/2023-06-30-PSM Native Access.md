@@ -1,7 +1,7 @@
 ---
 title: CyberArk PSM Native Access 
 date: 2023-07-07 10:10:10 +1100
-categories: [cyberark, pam]
+categories: [cyberark, Privilege Cloud, PSM]
 tags: [cyberark,psm,native access]     # TAG names should always be lowercase
 ---
 

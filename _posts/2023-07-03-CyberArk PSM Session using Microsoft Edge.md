@@ -1,7 +1,7 @@
 ---
 title: CyberArk PSM Sessions Using Microsoft Edge
 date: 2023-07-03 10:10:10 +1100
-categories: [cyberark,edge]
+categories: [cyberark, Privilege Cloud, PSM]
 tags: [cyberark,edge]     # TAG names should always be lowercase
 ---
 
