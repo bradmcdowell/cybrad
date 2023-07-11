@@ -1,7 +1,7 @@
 ---
 title: Reconcile Account
 date: 2023-07-06 10:10:10 +1100
-categories: [cyberark, Privilege Cloud, CPM]
+categories: [Privilege Cloud,CPM]
 tags: [cyberark,reconcile]     # TAG names should always be lowercase
 ---
 

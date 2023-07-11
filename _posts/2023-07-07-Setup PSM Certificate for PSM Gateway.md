@@ -1,7 +1,7 @@
 ---
 title: Setup PSM Certificate for PSM Gateway
 date: 2023-07-07 10:10:10 +1100
-categories: [cyberark, Privilege Cloud, PSM]
+categories: [Privilege Cloud,PSM]
 tags: [cyberark,html5 gateway,ssl,certificate]     # TAG names should always be lowercase
 ---
 

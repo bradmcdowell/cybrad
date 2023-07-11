@@ -1,7 +1,7 @@
 ---
 title: Download and Install Google Chrome for PSM
 date: 2023-06-02 10:10:10 +1100
-categories: [cyberark, Privilege Cloud]
+categories: [Privilege Cloud,PSM]
 tags: [cyberark,chrome]     # TAG names should always be lowercase
 ---
 

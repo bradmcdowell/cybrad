@@ -1,7 +1,7 @@
 ---
 title: Add-PSMApps
 date: 2023-07-04 10:10:10 +1100
-categories: [cyberark, Privilege Cloud, PSM, Connection Components]
+categories: [Privilege Cloud,PSM]
 tags: [cyberark,chrome,rsat]     # TAG names should always be lowercase
 ---
 
