@@ -24,8 +24,8 @@ This command adds ADUC,GPMC only
 .\Add-PSMApps.ps1 -Application "ADUC","DNS" -HTML5 "OffByDefault" -PortalUrl "https://subdomain.privilegecloud.cyberark.cloud"
 ```
 
-This command adds GoogleChromeX64,ADUC,GPMC and a GenericMMC (RSAT) console 
+This command adds GoogleChromeX64,ADUC,DNS,DHCP,GPMC and a GenericMMC (RSAT) console 
 
 ``` powershell
-.\Add-PSMApps.ps1 -Application "GoogleChromeX64","ADUC","GPMC","GenericMMC" -MscPath "C:\PSMApps\RSAT.msc" -ComponentName "RSAT" -ComponentDisplayName "RSAT" -HTML5 "OffByDefault" -PortalUrl "https://subdomain.privilegecloud.cyberark.cloud"
+.\Add-PSMApps.ps1 -Application "GoogleChromeX64","ADUC","DNS","DHCP","GPMC","GenericMMC" -MscPath "C:\PSMApps\RSAT.msc" -ComponentName "RSAT" -ComponentDisplayName "RSAT" -HTML5 "OffByDefault" -PortalUrl "https://subdomain.privilegecloud.cyberark.cloud"
 ```
