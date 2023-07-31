@@ -29,15 +29,26 @@ Set-WmiInstance -Path $PATH -argument @{SSLCertificateSHA1Hash="<INSERT-Thumbpri
 
 ```
 
-Configure the connection component to use the HTML5 GW
+In the Privilege Cloud web portal. Goto Administration -> Configuration Options -> Connection Components -> PSM-RDP -> User Parameters.
 
+Configure the connection component to use the HTML5 GW.
+
+Name:
 ```
 AllowSelectHTML5
-
+```
+DisplayName:
+```
 In Browser
-
+```
+Value:
+```
+Yes
+```
+Type:
+```
 CyberArk.TransparentConnection.BooleanUserParameter, CyberArk.PasswordVault.TransparentConnection
 ```
 
-![image](https://user-images.githubusercontent.com/65890052/227809357-6edddc17-ae9f-4ed3-8a47-ae427045e556.png)
+![image](https://raw.githubusercontent.com/bradmcdowell/cybrad/main/assets/img/HTML5Gateway_Settings.png)
 
