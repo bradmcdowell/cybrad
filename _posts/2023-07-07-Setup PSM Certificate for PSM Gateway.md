@@ -34,7 +34,7 @@ Configure the connection component to use the HTML5 GW
 ```
 AllowSelectHTML5
 
-HTML5 Gateway
+In Browser
 
 CyberArk.TransparentConnection.BooleanUserParameter, CyberArk.PasswordVault.TransparentConnection
 ```
