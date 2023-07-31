@@ -11,9 +11,11 @@ order: 1
 
 [CyberArk PSM Health Check](https://cyberark-customers.force.com/mplace/s/#a352J000000ai0MQAQ-a392J000002QBA6QAO)
 
-### Pre-Requisites CyberArk Privlege Cloud Connector
+### Pre-Requisites CyberArk Privlege Cloud Connector - Hardware
 
 [Connector Hardware Requirements](https://docs.cyberark.com/Product-Doc/OnlineHelp/PrivCloud-SS/Latest/en/Content/Privilege%20Cloud/PrivCloud-sys-req-connector.htm#Hardwarerequirements)
+
+### Pre-Requisites CyberArk Privlege Cloud Connector - Network
 
 [Outbound traffic network and port requirements](https://docs.cyberark.com/Product-Doc/OnlineHelp/PrivCloud-SS/Latest/en/Content/Privilege%20Cloud/PrivCloud-sys-req-networks.htm)
 
@@ -24,12 +26,12 @@ There are 2 seperate variables in the hostnames below.
 subdomain = The subdomain found in the URL ends with cyberark.cloud eg https://bradtest1.cyberark.cloud/
 Identity-tenant-id = The subdomain found in the Identity Administration portal eg  https://aaw9999999.id.cyberark.cloud/admin
 
-VAULT TCP 1858
+#### VAULT / TCP 1858
 ```
 vault-<subdomain>.privilegecloud.cyberark.cloud
 ```
 
-https / TCP 443
+#### HTTPS / TCP 443
 ```
 connector-<subdomain>.privilegecloud.cyberark.cloud
 <subdomain>.cyberark.cloud
@@ -37,10 +39,11 @@ connector-<subdomain>.privilegecloud.cyberark.cloud
 console.privilegecloud.cyberark.cloud
 webaccess-<subdomain>.privilegecloud.cyberark.cloud
 <Identity-tenant-id>.id.cyberark.cloud
-cloudflare.com
+*.amazontrust.com
+*.ss2.us
 ```
 
-Connector Management HTTPS TCP 443
+#### Connector Management HTTPS / TCP 443
 ```
 <Subdomain>.connectormanagement.cyberark.cloud
 connector-management-scripts-490081306957-ap-southeast-2.s3.amazonaws.com
@@ -49,13 +52,13 @@ a3vvqcp8z371p3-ats.iot.ap-southeast-2.amazonaws.com
 component-registry-store-490081306957.s3.amazonaws.com
 ```
 
-Identity Connector HTTPS TCP 443
+#### Identity Connector HTTPS / TCP 443
 ```
 *.idaptive.app
 *.id.cyberark.cloud
 ```
 
-Identity Connector HTTP TCP 80
+#### Identity Connector HTTP / TCP 80
 ```
 privacy-policy.truste.com
 ocsp.verisign.com
@@ -76,7 +79,7 @@ Connector Managment logging documentation [here](https://docs.cyberark.com/Produ
 cat -wait -tail 50 'C:\Program Files\CyberArk\Management Agent\Logs\client_log.txt'
 ```
 
-## 09 - App Locker Troubleshooting
+## App Locker Troubleshooting
 
 This command is useful to determine what applications can’t run because of AppLocker.
 
@@ -84,7 +87,7 @@ This command is useful to determine what applications can’t run because of App
 Get-WinEvent -LogName "Microsoft-Windows-AppLocker/EXE and DLL" |Where-Object {$_.LevelDisplayName -ne "Information"} | Select-Object -First 200 | Format-Table
 ```
 
-## 10 - Logs
+## Logs
 
 CPM
 ``` powershell
@@ -94,12 +97,12 @@ cat -Wait -Tail 50 .\pm.log
 PSM
 
 
-Secure Tunnel
+#### Secure Tunnel Logs
 
 ``` powershell
 cat -Wait -Tail 50 "C:\Program Files\CyberArk\PrivilegeCloudSecureTunnel\logs\privilege-cloud-securetunnel-service.log"
 ```
 
-## 16 - CyberArk Identity: How to configure or restrict attribute matching for the CyberArk Identity Connector
+## CyberArk Identity: How to configure or restrict attribute matching for the CyberArk Identity Connector
 
 https://cyberark-customers.force.com/s/article/CyberArk-Identity-How-to-configure-or-restrict-attribute-matching-for-the-CyberArk-Identity-Connector
