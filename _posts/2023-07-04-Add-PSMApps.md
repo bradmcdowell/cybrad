@@ -15,7 +15,7 @@ Step 3: Run a Powershell session as Administrator and run the follwoing sample c
 
 This command adds ADUC,GPMC and a GenericMMC (RSAT) console 
 ``` powershell
-.\Add-PSMApps.ps1 -Application "ADUC","GPMC","GenericMMC" -MscPath "C:\PSMApps\RSAT.msc" -ComponentName "RSAT" -ComponentDisplayName "RSAT" -HTML5 "OffByDefault" -PortalUrl "https://subdomain.privilegecloud.cyberark.cloud"
+.\Add-PSMApps.ps1 -Application "ADUC","GPMC","GenericMMC" -MscPath "C:\PSMApps\RSAT.msc" -ComponentName "RSAT" -ComponentDisplayName "PSM-RSAT" -HTML5 "OffByDefault" -PortalUrl "https://subdomain.privilegecloud.cyberark.cloud"
 ```
 
 This command adds ADUC,GPMC only
@@ -27,5 +27,5 @@ This command adds ADUC,GPMC only
 This command adds GoogleChromeX64,ADUC,DNS,DHCP,GPMC and a GenericMMC (RSAT) console 
 
 ``` powershell
-.\Add-PSMApps.ps1 -Application "GoogleChromeX64","ADUC","DNS","DHCP","GPMC","GenericMMC" -MscPath "C:\PSMApps\RSAT.msc" -ComponentName "RSAT" -ComponentDisplayName "RSAT" -HTML5 "OffByDefault" -PortalUrl "https://subdomain.privilegecloud.cyberark.cloud"
+.\Add-PSMApps.ps1 -Application "GoogleChromeX64","ADUC","DNS","DHCP","GPMC","GenericMMC" -MscPath "C:\PSMApps\RSAT.msc" -ComponentName "PSM-RSAT" -ComponentDisplayName "RSAT" -HTML5 "OffByDefault" -PortalUrl "https://subdomain.privilegecloud.cyberark.cloud"
 ```
