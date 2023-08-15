@@ -29,3 +29,8 @@ This command adds GoogleChromeX64,ADUC,DNS,DHCP,GPMC and a GenericMMC (RSAT) con
 ``` powershell
 .\Add-PSMApps.ps1 -Application "GoogleChromeX64","ADUC","DNS","DHCP","GPMC","GenericMMC" -MscPath "C:\PSMApps\RSAT.msc" -ComponentName "PSM-RSAT" -ComponentDisplayName "RSAT" -HTML5 "OffByDefault" -PortalUrl "https://subdomain.privilegecloud.cyberark.cloud"
 ```
+
+I want it all!!! This command adds GoogleChromeX64,MicrosoftEdgeX86,ADUC,DNS,DHCP,GPMC and a GenericMMC (RSAT) console 
+``` powershell
+.\Add-PSMApps.ps1 -Application "GoogleChromeX64","MicrosoftEdgeX86","ADUC","DNS","DHCP","GPMC","GenericMMC" -MscPath "C:\PSMApps\RSAT.msc" -ComponentName "PSM-RSAT" -ComponentDisplayName "RSAT" -HTML5 "OffByDefault" -PortalUrl "https://subdomain.privilegecloud.cyberark.cloud"
+```
