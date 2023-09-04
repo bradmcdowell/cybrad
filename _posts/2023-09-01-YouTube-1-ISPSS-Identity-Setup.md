@@ -6,7 +6,7 @@ tags: [cyberark,privilegecloud,identity]     # TAG names should always be lowerc
 ---
 
 This video covers the initial process of logging into Privilege Cloud and allowing Active-Directory users to log into the platform. It also covers how to remove SMS and Email MFA factors.
-[<img src="https://i.ytimg.com/vi/b8cENcM5VOY/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=b8cENcM5VOY) "#1 -  CyberArk Privilege Cloud - Shared Services | Identity Setup")
+[<img src="https://i.ytimg.com/vi/b8cENcM5VOY/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=b8cENcM5VOY) #1 -  CyberArk Privilege Cloud - Shared Services | Identity Setup
 
 Objectives:
 - Log into Privilege Cloud for the first time
