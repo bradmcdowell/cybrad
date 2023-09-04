@@ -5,7 +5,7 @@ categories: [Privilege Cloud,Connector Management]
 tags: [cyberark,privilegecloud]     # TAG names should always be lowercase
 ---
 
-This video covers the initial process of logging into Privilege Cloud and allowing Active-Directory users to log into the platform. It also covers how to remove SMS and Email MFA factors.
+This video covers installing the CyberArk Privilege Cloud connector software.
 [<img src="https://i.ytimg.com/vi/TP7HtbRhY_g/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=TP7HtbRhY_g) #2 - CyberArk Privilege Cloud - Shared Services | Connector Installation
 
 Objectives:
