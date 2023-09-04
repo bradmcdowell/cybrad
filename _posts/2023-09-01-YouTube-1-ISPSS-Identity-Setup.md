@@ -12,6 +12,6 @@ Objectives:
 - Log into Privilege Cloud for the first time
 - Configure Authentication Profile and Secured Zones
 - Configure Identity Policy
-- Install CyberArk Identity Connector Software
+- Install CyberArk Identity Connector Software - [Install Identity Connector via PowerShell Script](https://cybrad.au/posts/Identity-Connector-Installation/)
 - Setup of alternative MFA options, OTP and FIDO2 - Security Key
 - Remove Email and SMS MFA options

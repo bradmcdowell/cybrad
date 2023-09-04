@@ -5,4 +5,15 @@ categories: [Privilege Cloud,Connector Management]
 tags: [cyberark,privilegecloud]     # TAG names should always be lowercase
 ---
 
-Placeholder for video 2
+This video covers the initial process of logging into Privilege Cloud and allowing Active-Directory users to log into the platform. It also covers how to remove SMS and Email MFA factors.
+[<img src="https://i.ytimg.com/vi/TP7HtbRhY_g/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=TP7HtbRhY_g) #2 - CyberArk Privilege Cloud - Shared Services | Connector Installation
+
+Objectives:
+- Prepare Group Policy
+- Run Connector Management Pre-Requisites Script - [Download Script](https://cyberark-customers.force.com/mplace/s/#--CyberArk+Privilege+Cloud+Tools)
+- Install Connector Management Agent
+- Install CPM and PSM via Connector Management
+- Configure CyberArk Group Policy Hardening
+[CyberArk Group Policy Hardening](https://cyberark-customers.force.com/mplace/s/#software)
+- Prepare for onboarding Windows Account: Master Policy, Platform Management
+- Create a safe and onboard Windows Domain Admin account
