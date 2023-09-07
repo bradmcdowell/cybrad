@@ -9,7 +9,7 @@ This video covers the initial process of logging into Privilege Cloud and allowi
 
 [<img src="https://i.ytimg.com/vi/b8cENcM5VOY/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=b8cENcM5VOY) 
 
-#1 -  CyberArk Privilege Cloud - Shared Services | Identity Setup
+# #1 -  CyberArk Privilege Cloud - Shared Services | Identity Setup
 
 ## Objectives
 - Log into Privilege Cloud for the first time

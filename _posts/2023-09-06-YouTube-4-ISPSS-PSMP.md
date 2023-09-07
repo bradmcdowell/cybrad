@@ -7,9 +7,9 @@ tags: [cyberark,privilegecloud,psmp,psmforssh]     # TAG names should always be 
 
 This video covers setting up the *NIX platform and installing PSM for SSH (PSMP).
 
-[<img src="https://i.ytimg.com/vi/embTrLbKSl8/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=embTrLbKSl8)
+[<img src="https://i.ytimg.com/vi/IA68mw4eqRs/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=IA68mw4eqRs)
 
-#3 - CyberArk Privilege Cloud - Shared Services | PSM for SSH (PSMP)
+# #4 - CyberArk Privilege Cloud - Shared Services | PSM for SSH (PSMP)
 
 ## Objectives
 - Setup Unix Platform, Configuration Options and Create Safes

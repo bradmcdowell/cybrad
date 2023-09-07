@@ -9,7 +9,7 @@ This video covers installing the CyberArk Privilege Cloud connector software.
 
 [<img src="https://i.ytimg.com/vi/TP7HtbRhY_g/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=TP7HtbRhY_g) 
 
-#2 - CyberArk Privilege Cloud - Shared Services | Connector Installation
+# #2 - CyberArk Privilege Cloud - Shared Services | Connector Installation
 
 ## Objectives
 - Prepare Group Policy

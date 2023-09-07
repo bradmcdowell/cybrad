@@ -9,7 +9,7 @@ This video covers configuring certificats for the HTML5 gateway, installing the 
 
 [<img src="https://i.ytimg.com/vi/embTrLbKSl8/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=embTrLbKSl8)
 
-#3 - CyberArk Privilege Cloud - Shared Services | Secure Tunnel and HTML5 Gateway
+# #3 - CyberArk Privilege Cloud - Shared Services | Secure Tunnel and HTML5 Gateway
 
 ## Objectives
 - Configure Self-Signed Certificate for PSM
