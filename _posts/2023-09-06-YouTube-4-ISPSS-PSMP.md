@@ -26,7 +26,7 @@ Download [PrivilegedSessionManagerSSHProxy-RHELinux8-Intel64-Rls-v1X.X.zip from 
 
 Copy package from windows machine to PSMP server
 
-``` Powershell
+```
 scp "C:\<Path_To_File>\PrivilegedSessionManagerSSHProxy-RHELinux8-Intel64-Rls-v13.2.zip" <USERNAME>@<PSMP_HOSTNAME>:~/
 ```
 
