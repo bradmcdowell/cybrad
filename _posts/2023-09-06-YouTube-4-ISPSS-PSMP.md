@@ -1,6 +1,6 @@
 ---
 title: 4 - CyberArk Privilege Cloud - Shared Services | PSM for SSH (PSMP)
-date: 2023-09-03 10:10:10 +1100
+date: 2023-09-06 10:10:10 +1100
 categories: [Privilege Cloud,PSMP]
 tags: [cyberark,privilegecloud,psmp,psmforssh]     # TAG names should always be lowercase
 ---
