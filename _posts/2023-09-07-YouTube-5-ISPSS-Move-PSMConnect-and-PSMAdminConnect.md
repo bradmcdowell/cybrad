@@ -18,6 +18,8 @@ This video covers moving the PSM application users to the domain level.
 - Run the Set-DomainUser script
 - Test PSM Session / Monitoring
 
+Set-DomainUser.ps1 script is found here.
+https://cyberark-customers.force.com/mplace/s/#--CyberArk+Privilege+Cloud+Tools
 
 Timeline:
 - Intro 0:00
