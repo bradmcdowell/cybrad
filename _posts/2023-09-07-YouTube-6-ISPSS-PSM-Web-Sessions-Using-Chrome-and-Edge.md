@@ -17,7 +17,8 @@ This video covers enabling web browsers running in a PSM session for both Google
 - Test PSM web session to a test target using Edge
 - Web Driver Updater
 
-## Install Google Chrome and Microsoft Edge using Add-PSMApps.ps1 script
+# PSM Web Sessions - Google Chrome
+#### Install Google Chrome and Microsoft Edge using Add-PSMApps.ps1 script
 
 Add-PSMApps.ps1 script is found [here](https://cyberark-customers.force.com/mplace/s/#a352J000000GWAZQA4-a392J000002tNgLQAU).
 
@@ -25,7 +26,7 @@ Add-PSMApps.ps1 script is found [here](https://cyberark-customers.force.com/mpla
 .\Add-PSMApps.ps1 -Application "GoogleChromeX64","MicrosoftEdgeX86"
 ```
 
-## Google Chrome AppLocker Requirements
+#### Google Chrome AppLocker Requirements
 Check the version of Google Chrome installed on the PSM server and download  the chrome driver from [here](https://googlechromelabs.github.io/chrome-for-testing/). Usually you will select the chromedriver win32 from the Stable section.
 
 Extract the chromedriver.exe and place it in the following locations
@@ -47,11 +48,18 @@ And place the following line of text.
 
 Run PowerShell as Administrator and execute the PSMConfigureAppLocker.xml script.
 
-Update the connection component broweser path if using 64-bit.
+#### PSM Components Options configuration (Google Chrome)
 
-See [Cyberark Documentation - Web applications for PSM](https://docs.cyberark.com/PrivCloud-SS/Latest/en/Content/PASIMP/psm_WebApplication.htm)
+Administration  -> Configuration Options
 
-## Microsoft Edge AppLocker Requirements
+Configuraitons -> Connection Components
+
+Configuraitons -> Connection Components -> *Connection Component ID* -> Target Settings -> Client Specific
+BrowserPath - Value = C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+EnableTrace - Value = Yes or No
+
+# PSM Web Sessions - Microsoft Edge
+#### Microsoft Edge AppLocker Requirements
 Check you version of Microsoft Edge installed on the PSM server and download the x86 edge driver version.
 https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 
@@ -60,7 +68,7 @@ https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 "C:\Program Files (x86)\CyberArk\PSM\Components\msedgedriver.exe"
 ```
 
-#### App locker
+#### App locker - Microsoft Edge
 
 In the"-- Allowed DLLs --" section add the follwoing line
 
@@ -82,7 +90,7 @@ NOTE: this is different to the NATIVEIMAGES above.
     <Libraries Name="NATIVEIMAGES" Type="Dll" Path="%WINDIR%\ASSEMBLY\NATIVEIMAGES_V4.0.30319_32\*" Method="Path" />
 ```
 
-#### PSM Components Options configuration
+#### PSM Components Options configuration (Microsoft Edge)
 
 Administration  -> Configuration Options
 
@@ -100,7 +108,7 @@ EnableTrace - Value = Yes or No
 
 See [Cyberark Documentation - Web applications for PSM](https://docs.cyberark.com/PrivCloud-SS/Latest/en/Content/PASIMP/psm_WebApplication.htm)
 
-Timeline:
+# Timeline:
 - Intro 0:00
 - Palo Alto Firewall Setup 0:59
 - Install Chrome and Edge using Add-PSMApps.ps1 script 2:14
