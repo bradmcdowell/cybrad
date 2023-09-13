@@ -1,5 +1,5 @@
 ---
-title: 5 - CyberArk Privilege Cloud - Shared Services | Move PSM Application Users To The Domain Level
+title: "#5 - CyberArk Privilege Cloud - Shared Services | Move PSM Application Users To The Domain Level"
 date: 2023-09-07 10:10:10 +1100
 categories: [Privilege Cloud,PSM]
 tags: [cyberark,privilegecloud,psm,psmconnect,psmadminconnect]     # TAG names should always be lowercase
@@ -8,9 +8,6 @@ tags: [cyberark,privilegecloud,psm,psmconnect,psmadminconnect]     # TAG names s
 This video covers moving the PSM application users to the domain level.
 
 [<img src="https://i.ytimg.com/vi/sxT60oX7bYQ/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=sxT60oX7bYQ)
-
-# #5 - CyberArk Privilege Cloud - Shared Services | Move PSM Application Users To The Domain Level
-
 ## Objectives
 - Create the PSMConnect and PSMAdminConnect users in your domain
 - Modify the domain users in Active Directory
