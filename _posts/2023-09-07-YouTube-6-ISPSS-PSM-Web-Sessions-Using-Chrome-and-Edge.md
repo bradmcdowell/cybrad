@@ -22,6 +22,8 @@ This video covers enabling web browsers running in a PSM session for both Google
 
 ## Install Google Chrome and Microsoft Edge using Add-PSMApps.ps1 script
 
+Add-PSMApps.ps1 script is found [here](https://cyberark-customers.force.com/mplace/s/#a352J000000GWAZQA4-a392J000002tNgLQAU).
+
 ``` powershell
 .\Add-PSMApps.ps1 -Application "GoogleChromeX64","MicrosoftEdgeX86"
 ```
@@ -48,8 +50,9 @@ And place the following line of text.
 
 Run PowerShell as Administrator and execute the PSMConfigureAppLocker.xml script.
 
-Update the connection component broweser path if required.
+Update the connection component broweser path if using 64-bit.
 
+See [Cyberark Documentation - Web applications for PSM](https://docs.cyberark.com/PrivCloud-SS/Latest/en/Content/PASIMP/psm_WebApplication.htm)
 
 ## Microsoft Edge AppLocker Requirements
 Check you version of Microsoft Edge installed on the PSM server and download the x86 edge driver version.
@@ -59,6 +62,46 @@ https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 "C:\Program Files (x86)\CyberArk\Password Manager\bin\msedgedriver.exe"
 "C:\Program Files (x86)\CyberArk\PSM\Components\msedgedriver.exe"
 ```
+
+#### App locker
+
+In the"-- Allowed DLLs --" section add the follwoing line
+
+```xml
+    <Libraries Name="NATIVEIMAGES" Type="Dll" Path="%WINDIR%\ASSEMBLY\NATIVEIMAGES_V4.0.30319_32\*" Method="Path" SessionType="*" />
+```
+
+In the "-- Microsoft Edge process --" section, uncomment the Edge application and add the EdgeDrive line.
+```xml
+    <Application Name="Edge" Type="Exe" Path="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" Method="Publisher" />
+    <Application Name="EdgeDriver" Type="Exe" Path="C:\Program Files (x86)\Cyberark\PSM\Components\msedgedriver.exe" Method="Publisher" />
+
+```
+
+In the "-- Allowed DLLs --" section add NATIVEIMAGES.
+NOTE: this is different to the NATIVEIMAGES above.
+
+```xml
+    <Libraries Name="NATIVEIMAGES" Type="Dll" Path="%WINDIR%\ASSEMBLY\NATIVEIMAGES_V4.0.30319_32\*" Method="Path" />
+```
+
+#### PSM Components Options configuration
+
+Administration  -> Configuration Options
+
+Configuraitons -> Connection Components
+
+Duplicate an existing Chrome Connecton Component
+
+Configuraitons -> Connection Components -> *Connection Component ID* -> Target Settings
+Change the value for "ClientApp" form Chrome to Edge
+
+Configuraitons -> Connection Components -> *Connection Component ID* -> Target Settings -> Client Specific
+BrowserPath - Value = C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+RunValidations - Vaule = No
+EnableTrace - Value = Yes or No
+
+See [Cyberark Documentation - Web applications for PSM](https://docs.cyberark.com/PrivCloud-SS/Latest/en/Content/PASIMP/psm_WebApplication.htm)
 
 Timeline:
 - Intro 0:00
