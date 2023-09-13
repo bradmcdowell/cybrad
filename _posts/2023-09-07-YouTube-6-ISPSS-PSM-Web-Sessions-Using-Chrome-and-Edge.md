@@ -7,7 +7,7 @@ tags: [cyberark,privilegecloud,psm,chrome,edge]     # TAG names should always be
 
 This video covers enabling web browsers running in a PSM session for both Google Chrome and Microsoft Edge.
 
-[<img src="https://i.ytimg.com/vi/sxT60oX7bYQ/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=sxT60oX7bYQ)
+[<img src="https://i.ytimg.com/vi/VLo2TBgS0MM/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=VLo2TBgS0MM)
 
 # #6 - CyberArk Privilege Cloud - Shared Services | PSM Web Sessions Using Chrome and Edge
 
@@ -62,5 +62,12 @@ https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 
 Timeline:
 - Intro 0:00
-- Goal PaloAlto firewall
--
+- Palo Alto Firewall Setup 0:59
+- Install Chrome and Edge using Add-PSMApps.ps1 script 2:14
+- Chrome Driver and PSMConfigureAppLocker.xml for Chrome 3:37
+- Chrome PSM Connection Component example - Palo Alto 7:31
+- Test Chrome PSM Session 11:26
+- Edge Web Driver and PSMConfigureAppLocker.xml for Edge  12:07
+- Edge PSM Connection Component example - Palo Alto 14:42
+- Test Edge PSM Session 16:14
+- WebDriverUpdater Overview 17:49
