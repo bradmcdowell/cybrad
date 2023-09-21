@@ -5,12 +5,12 @@ categories: [Privilege Cloud,CPM,PSM,Palo Alto]
 tags: [cyberark,privilegecloud,cpm,psm,paloalto,panos]     # TAG names should always be lowercase
 ---
 
-This video covers the Palo Alto platform.
+This video covers the Palo Alto PAN-OS platform.
 
 [<img src="https://i.ytimg.com/vi/Si8MTsSMoTg/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=Si8MTsSMoTg)
 ## Objectives
 - Import PAN-OS CPM Platform 
-- CPM: PAN-OS PSM Connection Component
+- Import PAN-OS PSM Connection Component
 - CPM: Manage Palo Alto PAN-OS local accounts
 - PSM: Connect to PAN-OS using local accounts for both SSH and Web
 - PSM: Connect to PAN-OS using Active-Directory managed accounts for both SSH and Web
@@ -21,7 +21,7 @@ This video covers the Palo Alto platform.
 
 [Palo Alto Networks PAN-OS - PSM](https://cyberark.my.site.com/mplace/s/#a352J000000WUOOQA4-a392J0000013eXJQAY)
 ### PSM-PaloAltoWeb
-
+#### WebFormFields
 Target Settings -> Web Form Settings -> WebFormFields
 ```
 user>{Username}
@@ -31,6 +31,7 @@ ext-gen60 > (Validation)
 ```
 ### PSM-SSH-PaloAlto-Domain
 
+#### PSMRemoteMachine
 User Parameters
 -> Create Parameter
 Name: 
@@ -46,6 +47,7 @@ Type:
 CyberArk.PasswordVault.Web.TransparentConnection.RemoteMachineUserParameter, CyberArk.PasswordVault.Web
 ```
 
+#### ClientApp
 Target Settings -> Client Specific
 -> Create Parameter
 Name:
