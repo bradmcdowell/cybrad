@@ -16,9 +16,11 @@ This video covers the Palo Alto platform.
 - PSM: Connect to PAN-OS using Active-Directory managed accounts for both SSH and Web
 - PSMP: Connect to PAN-OS using local accounts via SSH
 
+### CyberArk Marketplace Links
 [Palo Alto Networks PAN-OS - CPM](https://cyberark.my.site.com/mplace/s/#a352J000000WUKgQAO-a392J0000013eW1QAI)
+
 [Palo Alto Networks PAN-OS - PSM](https://cyberark.my.site.com/mplace/s/#a352J000000WUOOQA4-a392J0000013eXJQAY)
-## PSM-PaloAltoWeb
+### PSM-PaloAltoWeb
 
 Target Settings -> Web Form Settings -> WebFormFields
 ```
@@ -55,7 +57,7 @@ Value:
 "putty.exe" -ssh "{UserName}"@"{PSMRemoteMachine}" -pw "{Password}"
 ```
 
-# PSMP Connection String
+### PSMP Connection String
 
 ```
 ssh brad@cybrad.au@ca.superuser@firewall.cybrad.au@psmp1cybrad.au -i "C:\Users\Brad\Downloads\key.openssh"
