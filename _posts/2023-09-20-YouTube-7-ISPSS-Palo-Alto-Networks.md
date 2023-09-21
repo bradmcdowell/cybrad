@@ -64,7 +64,6 @@ Value:
 ```
 ssh brad@cybrad.au@ca.superuser@firewall.cybrad.au@psmp1cybrad.au -i "C:\Users\Brad\Downloads\key.openssh"
 ```
-
 [PSM for SSH Syntax Cheat Sheet](https://cyberark.my.site.com/s/article/PSM-for-SSH-Syntax-Cheat-Sheet)
 # Timeline:
 - Intro 0:00
