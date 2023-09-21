@@ -39,14 +39,14 @@ Edit the PSMConfigureAppLocker.xml file located at "C:\Program Files (x86)\Cyber
 
 At about line 147 you will find the following text, leave it there and make a new line underneath.
 ``` xml
-    <Application Name="GoogleChrome" Type="Exe" Path="C:\Program Files\Google\Chrome\Application\chrome.exe" Method="Publisher" /> 
+    <Application Name="GoogleChrome" Type="Exe" Path="C:\Program Files\Google\Chrome\Application\chrome.exe" Method="Publisher" />
 ```
 And place the following line of text.
 ``` xml
-    <Application Name="GoogleChromeDriver" Type="Exe" Path="C:\Program Files (x86)\CyberArk\PSM\Components\chromedriver.exe" Method="Path" />    
+    <Application Name="GoogleChromeDriver" Type="Exe" Path="C:\Program Files (x86)\CyberArk\PSM\Components\chromedriver.exe" Method="Path" />
 ```
 
-Run PowerShell as Administrator and execute the PSMConfigureAppLocker.xml script.
+Run PowerShell as Administrator and execute the PSMConfigureAppLocker.ps1 script.
 
 #### PSM Components Options configuration (Google Chrome)
 

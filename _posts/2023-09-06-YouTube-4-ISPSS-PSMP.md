@@ -81,6 +81,6 @@ Run the PSMP wizard
 ./psmpwiz1320.sh
 ```
 
-### PSM for SSH Syntax Cheat Sheet
+## Links
 
-https://cyberark.my.site.com/s/article/PSM-for-SSH-Syntax-Cheat-Sheet
+[PSM for SSH Syntax Cheat Sheet](https://cyberark.my.site.com/s/article/PSM-for-SSH-Syntax-Cheat-Sheet)
