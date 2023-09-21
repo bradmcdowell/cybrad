@@ -12,7 +12,6 @@ This video covers the Palo Alto platform.
 - 
 
 
-https://youtu.be/KaocW0NiBoM
 # Timeline:
 - Intro 0:00
-- 
+- Test 1:00
