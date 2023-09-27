@@ -26,7 +26,7 @@ This video covers the Microsoft Azure platform.
 [Microsoft Azure Portal - PSM](https://cyberark.my.site.com/mplace/s/#a3550000000EiBfAAK-a3950000000jjUFAAY)
 
 ### Microsoft Azure Portal
-URL
+Address
 ```
 https://portal.azure.com
 ```
@@ -42,7 +42,7 @@ _weave_e_10 > (Validation)
 ```
 
 ### Microsoft My Apps Portal
-URL
+Address
 ```
 https://myapps.microsoft.com/
 ```
