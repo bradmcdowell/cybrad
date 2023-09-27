@@ -7,7 +7,7 @@ tags: [cyberark,privilegecloud,cpm,psm,microsoft,azure,entraid]     # TAG names 
 
 This video covers the Microsoft Azure platform.
 
-[<img src="https://i.ytimg.com/vi/_vZDPhI-KlU/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=_vZDPhI-KlU)
+[<img src="https://i.ytimg.com/vi/bjHjosRtQ7s/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=bjHjosRtQ7s)
 ## Objectives
 - Configure Azure Platform for Application Keys and Password Management
 - Create CyberArk CPM Application in Azure
@@ -28,10 +28,13 @@ This video covers the Microsoft Azure platform.
 # Timeline:
 - Intro 0:00
 - Lab Overview 1:33
-- Market Place links 1:57
+- Market Place Links 1:57
 - Create Safes 2:30
 - Azure Platform 2:56
 - Create Azure CPM App Registration  3:26
 - Onboard Azure CPM Account 5:55
-- Onborad Cloud Accounts7:57
-- Configre PSM Connection Component
+- Onboard Cloud Accounts 7:57
+- Configure Azure PSM Cloud Account 11:56
+- Validation Error Fix 14:05
+- Configure Azure PSM AD Account 17:28
+- Configure MS MyApps PSM AD Account 19:03
