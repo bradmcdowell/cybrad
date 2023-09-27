@@ -25,6 +25,37 @@ This video covers the Microsoft Azure platform.
 
 [Microsoft Azure Portal - PSM](https://cyberark.my.site.com/mplace/s/#a3550000000EiBfAAK-a3950000000jjUFAAY)
 
+### Microsoft Azure Portal
+URL
+```
+https://portal.azure.com
+```
+
+PSM-MS-AzurePortal -> Target Settings -> Web Form Settings -> WebFormFields
+```
+i0116 > {username}@cybrad.au
+idSIButton9 > (Button)
+i0118 > {password}
+idSIButton9 > (Button)
+idSIButton9 > (Button)
+_weave_e_10 > (Validation)
+```
+
+### Microsoft My Apps Portal
+URL
+```
+https://myapps.microsoft.com/
+```
+
+PSM-MS-AzurePortal -> Target Settings -> Web Form Settings -> WebFormFields
+```
+i0116 > {username}@cybrad.au
+idSIButton9 > (Button)
+i0118 > {password}
+idSIButton9 > (Button)
+idSIButton9 > (Button)
+me-control-container > (Validation)
+```
 # Timeline:
 - Intro 0:00
 - Lab Overview 1:33
