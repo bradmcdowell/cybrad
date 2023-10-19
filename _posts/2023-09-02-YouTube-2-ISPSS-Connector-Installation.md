@@ -17,3 +17,6 @@ This video covers installing the CyberArk Privilege Cloud connector software.
 [CyberArk Group Policy Hardening](https://cyberark-customers.force.com/mplace/s/#software)
 - Prepare for onboarding Windows Account: Master Policy, Platform Management
 - Create a safe and onboard Windows Domain Admin account
+
+## Links
+[Privilege Cloud - How to run the ConnectorCheckPrerequisites script](https://cyberark.my.site.com/s/article/Privilege-Cloud-How-to-run-the-ConnectorCheckPrerequisites-script)
