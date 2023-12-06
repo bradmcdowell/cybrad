@@ -104,5 +104,14 @@ listen stats
 
 # Timeline
 - Intro 0:00
-- Lab Overview 1:33
-- 
+- Lab Overview 1:02
+- Documentation 1:25
+- Install PSM Health Check on CON1 2:02
+- Test PSM Health Check and fix cert issue 4:13
+- Install PSM Health Check on CON2 6:00
+- Set Health Check to listen on port 80 6:55
+- Review Load Balancer config in Privilege Cloud Portal 8:14
+- Review HAProxy configuraiton 9:20
+- Test PSM Health Check with HAProxy 10:51
+- Test PSM Load Balancer vi HTML5 Gateway 12:05
+- Test PSMP Load Balancing via HAProxy 13:04
