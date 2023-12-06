@@ -30,7 +30,7 @@ This video covers the PSM Health check
 
 HAProxy config file /etc/haproxy/haproxy.cfg
 
-``` yml /etc/haproxy/haproxy.cfg
+``` yml
 global
         log /dev/log    local0
         log /dev/log    local1 notice
