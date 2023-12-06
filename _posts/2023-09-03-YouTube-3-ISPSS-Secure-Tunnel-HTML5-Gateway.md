@@ -1,5 +1,5 @@
 ---
-title: "#3 - CyberArk Privilege Cloud - Shared Services | Secure Tunnel and HTML5 Gateway"
+title: "#3 - CyberArk Privilege Cloud | Secure Tunnel and HTML5 Gateway"
 date: 2023-09-05 10:10:10 +1100
 categories: [Privilege Cloud,Secure Tunnel]
 tags: [cyberark,privilegecloud,secure tunnel,HTML5gateway]     # TAG names should always be lowercase

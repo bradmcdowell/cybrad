@@ -1,5 +1,5 @@
 ---
-title: "#5 - CyberArk Privilege Cloud - Shared Services | Move PSM Application Users To The Domain Level"
+title: "#5 - CyberArk Privilege Cloud | Move PSM Application Users To The Domain Level"
 date: 2023-09-07 10:10:10 +1100
 categories: [Privilege Cloud,PSM]
 tags: [cyberark,privilegecloud,psm,psmconnect,psmadminconnect]     # TAG names should always be lowercase
