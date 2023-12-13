@@ -5,11 +5,17 @@ categories: [Privilege Cloud,PSM,CPM,Secure Tunne,Identity Connector,squid proxy
 tags: [cyberark,privilegecloud,psm,cpm,squidproxy]     # TAG names should always be lowercase
 ---
 
+> ##### WARNING
+>
+> Be Aware That This Is Currently Under Controlled Availability. For This To Be Supported You Need To Get Written Approval From PM, Contact Your Account Executive To Start This Process.
+> If You Do Not, CyberArk Can't Guarantee Support.
+{: .block-warning }
+
 This video covers the Windows connector install with a proxy configuraiton.
 
 [<img src="https://i.ytimg.com/vi/lbRTorlbV5s/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=lbRTorlbV5s)
 ## Objectives
-- Proxy / Network Requirements 
+- Proxy / Network Requirements
 - Pre-Requisites checks and tests
 - Install CPM and PSM v14.0 using web proxy
 - Install and configure Secure Tunnel v3.1 using web proxy
@@ -21,12 +27,6 @@ This video covers the Windows connector install with a proxy configuraiton.
 ### Links
 
 [Proxy Configuration in Privilege Cloud](https://cyberark.my.site.com/s/article/Proxy-Configuration-in-Privilege-Cloud)
-
-> ##### WARNING
->
-> Be Aware That This Is Currently Under Controlled Availability. For This To Be Supported You Need To Get Written Approval From PM, Contact Your Account Executive To Start This Process.
-> If You Do Not, CyberArk Can't Guarantee Support.
-{: .block-warning }
 
 # Timeline
 - Intro 0:00
