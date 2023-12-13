@@ -20,7 +20,11 @@ This video covers the Windows connector install with a proxy configuraiton.
 
 ### Links
 
-[Priv cloud Proxy](https://cyberark.my.site.com/s/article/Proxy-Configuration-in-Privilege-Cloud)
+[Proxy Configuration in Privilege Cloud](https://cyberark.my.site.com/s/article/Proxy-Configuration-in-Privilege-Cloud)
+
+> [!WARNING]  
+> Be Aware That This Is Currently Under Controlled Availability. For This To Be Supported You Need To Get Written Approval From PM, Contact Your Account Executive To Start This Process.
+> If You Do Not, CyberArk Can't Guarantee Support.
 
 # Timeline
 - Intro 0:00
