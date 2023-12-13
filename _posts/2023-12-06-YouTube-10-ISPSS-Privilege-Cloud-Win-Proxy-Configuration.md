@@ -19,4 +19,48 @@ This video covers the Windows connector install with a proxy configuraiton.
 
 # Timeline
 - Intro 0:00
+- Lab Overview 1:08
+- Proxy Setup 2:40
+- Documentaiton 4:10
+- Connectivity Testing 4:50
 - 
+
+
+Issues
+
+6:26
+
+8:04
+
+8:42
+
+9:02
+
+9:15
+
+9:59
+
+10:45
+
+11:50
+
+13:14
+
+13:46
+
+
+
+
+14:03
+
+14:19
+
+14:43 cough
+
+15:40 speed up
+
+16:05 cough
+
+30:18
+
+
