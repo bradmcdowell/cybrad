@@ -6,8 +6,10 @@ tags: [cyberark,privilegecloud,identity]     # TAG names should always be lowerc
 ---
 
 This video covers the initial process of logging into Privilege Cloud and allowing Active-Directory users to log into the platform. It also covers how to remove SMS and Email MFA factors.
-
-[<img src="https://i.ytimg.com/vi/b8cENcM5VOY/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=b8cENcM5VOY) 
+<!---
+https://cybrad.au/
+#[<img src="https://i.ytimg.com/vi/b8cENcM5VOY/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=b8cENcM5VOY) 
+--->
 ## Objectives
 - Log into Privilege Cloud for the first time
 - Configure Authentication Profile and Secured Zones
