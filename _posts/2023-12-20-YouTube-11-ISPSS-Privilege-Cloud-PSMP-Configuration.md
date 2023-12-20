@@ -13,7 +13,7 @@ tags: [cyberark,privilegecloud,psmp,squidproxy]     # TAG names should always be
 
 This video covers the PSMP connector install with a proxy for internet access. If you are not using a proxy server, please refer to [this post](https://cybrad.au/posts/YouTube-4-ISPSS-PSMP) for more details.
 
-https://youtu.be/6ML-PBRgHas
+[![Video Preview](https://i.ytimg.com/vi/6ML-PBRgHas/maxresdefault.jpg)](https://www.youtube.com/watch?v=6ML-PBRgHas)
 
 ## Objectives
 - LAB Overview
