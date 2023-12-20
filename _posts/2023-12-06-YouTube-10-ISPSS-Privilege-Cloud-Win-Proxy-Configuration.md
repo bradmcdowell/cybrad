@@ -12,8 +12,9 @@ tags: [cyberark,privilegecloud,psm,cpm,squidproxy]     # TAG names should always
 {: .block-warning }
 
 This video covers the Windows connector install with a proxy configuraiton.
-
+<!---
 [<img src="https://i.ytimg.com/vi/lbRTorlbV5s/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=lbRTorlbV5s)
+--->
 ## Objectives
 - Proxy / Network Requirements
 - Pre-Requisites checks and tests

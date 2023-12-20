@@ -6,8 +6,9 @@ tags: [cyberark,privilegecloud,cpm,psm,microsoft,azure,entraid]     # TAG names 
 ---
 
 This video covers the Microsoft Azure platform.
-
+<!---
 [<img src="https://i.ytimg.com/vi/bjHjosRtQ7s/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=bjHjosRtQ7s)
+--->
 ## Objectives
 - Configure Azure Platform for Application Keys and Password Management
 - Create CyberArk CPM Application in Azure

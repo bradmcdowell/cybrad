@@ -6,8 +6,9 @@ tags: [cyberark,privilegecloud,cpm,psm,paloalto,panos]     # TAG names should al
 ---
 
 This video covers the Palo Alto PAN-OS platform.
-
+<!---
 [<img src="https://i.ytimg.com/vi/Si8MTsSMoTg/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=Si8MTsSMoTg)
+--->
 ## Objectives
 - Import PAN-OS CPM Platform 
 - Import PAN-OS PSM Connection Component

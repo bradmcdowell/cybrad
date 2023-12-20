@@ -6,8 +6,9 @@ tags: [cyberark,privilegecloud,psm,chrome,edge]     # TAG names should always be
 ---
 
 This video covers enabling web browsers running in a PSM session for both Google Chrome and Microsoft Edge.
-
+<!---
 [<img src="https://i.ytimg.com/vi/VLo2TBgS0MM/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=VLo2TBgS0MM)
+--->
 ## Objectives
 - Use Add-PSMApps.ps1 script to install Chrome and Edge
 - Configure AppLocker for Chrome
