@@ -5,6 +5,16 @@ categories: [Privilege Cloud,PSMP,squid proxy]
 tags: [cyberark,privilegecloud,psmp,squidproxy]     # TAG names should always be lowercase
 ---
 
+> ##### WARNING
+>
+> Be Aware That This Is Currently Under Controlled Availability. For This To Be Supported You Need To Get Written Approval From PM, Contact Your Account Executive To Start This Process.
+> If You Do Not, CyberArk Can't Guarantee Support.
+{: .block-warning }
+
+This video covers the PSMP connector install with a proxy for internet access. If you are not using a proxy server, please refer to [this post](https://cybrad.au/posts/YouTube-4-ISPSS-PSMP) for more details.
+
+https://youtu.be/6ML-PBRgHas
+
 ## Objectives
 - LAB Overview
 - Install PSMP v13.2 using web proxy
