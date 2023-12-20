@@ -16,7 +16,7 @@ This video covers the Windows connector install with a proxy configuraiton.
 [<img src="https://i.ytimg.com/vi/lbRTorlbV5s/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=lbRTorlbV5s)
 --->
 
-https://youtu.be/lbRTorlbV5s
+[![Video Preview](https://i.ytimg.com/vi/lbRTorlbV5s/maxresdefault.jpg)](https://www.youtube.com/watch?v=lbRTorlbV5s)
 
 ## Objectives
 - Proxy / Network Requirements

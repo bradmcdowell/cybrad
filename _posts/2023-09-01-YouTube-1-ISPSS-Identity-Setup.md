@@ -10,6 +10,8 @@ This video covers the initial process of logging into Privilege Cloud and allowi
 https://cybrad.au/
 #[<img src="https://i.ytimg.com/vi/b8cENcM5VOY/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=b8cENcM5VOY) 
 --->
+[![Video Preview](https://i.ytimg.com/vi/b8cENcM5VOY/maxresdefault.jpg)](https://www.youtube.com/watch?v=b8cENcM5VOY)
+
 ## Objectives
 - Log into Privilege Cloud for the first time
 - Configure Authentication Profile and Secured Zones

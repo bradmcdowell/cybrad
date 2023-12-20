@@ -9,6 +9,8 @@ This video covers moving the PSM application users to the domain level.
 <!---
 [<img src="https://i.ytimg.com/vi/sxT60oX7bYQ/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=sxT60oX7bYQ)
 --->
+[![Video Preview](https://i.ytimg.com/vi/sxT60oX7bYQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=sxT60oX7bYQ)
+
 ## Objectives
 - Create the PSMConnect and PSMAdminConnect users in your domain
 - Modify the domain users in Active Directory

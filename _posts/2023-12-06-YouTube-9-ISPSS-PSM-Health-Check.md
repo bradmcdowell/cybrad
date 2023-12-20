@@ -10,6 +10,9 @@ This video covers the PSM Health check
 <!---
 [<img src="https://i.ytimg.com/vi/SeP7JISnF-s/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=SeP7JISnF-s)
 --->
+
+[![Video Preview](https://i.ytimg.com/vi/SeP7JISnF-s/maxresdefault.jpg)](https://www.youtube.com/watch?v=SeP7JISnF-s)
+
 ## Objectives
 - Configure PSM Health Check
 - Test PSM Health Check with PowerShell

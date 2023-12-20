@@ -9,6 +9,7 @@ This video covers configuring certificats for the HTML5 gateway, installing the 
 <!---
 [<img src="https://i.ytimg.com/vi/embTrLbKSl8/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=embTrLbKSl8)
 --->
+[![Video Preview](https://i.ytimg.com/vi/embTrLbKSl8/maxresdefault.jpg)](https://www.youtube.com/watch?v=embTrLbKSl8)
 ## Objectives
 - Configure Self-Signed Certificate for PSM
 - [Configure Remote Desktop Services Certificate](https://cybrad.au/posts/Setup-PSM-Certificate-for-PSM-Gateway/)
