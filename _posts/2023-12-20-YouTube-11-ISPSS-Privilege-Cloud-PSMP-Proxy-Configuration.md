@@ -116,4 +116,8 @@ sudo tail -f /var/opt/CARKpsmp/logs/PSMPTrace.log
 
 # Timeline
 - Intro 0:00
-- 
+- Lab Overview 0:26
+- Set installler user password 0:44
+- PSMP Install 1:08
+- Troubleshoot PSMP 6:41
+- Test PSMP 8:15
