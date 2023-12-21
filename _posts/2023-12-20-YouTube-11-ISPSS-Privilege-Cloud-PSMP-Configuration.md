@@ -30,7 +30,7 @@ scp "C:\Install\CyberArk Privilege Cloud_14.0_1700448236427\Privileged Cloud\Pri
 
 ### SSH to PSMP
 
-### Edit file /etc/dnf/dnf.conf
+### Edit file /etc/dnf/dnf.conf using vi
 
 ```
 sudo vi /etc/dnf/dnf.conf
