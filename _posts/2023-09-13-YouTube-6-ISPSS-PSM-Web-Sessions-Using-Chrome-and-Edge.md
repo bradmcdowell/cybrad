@@ -58,7 +58,10 @@ Administration  -> Configuration Options
 Configuraitons -> Connection Components
 
 Configuraitons -> Connection Components -> *Connection Component ID* -> Target Settings -> Client Specific
-BrowserPath - Value = C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+BrowserPath - Value = 
+```
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+```
 EnableTrace - Value = Yes or No
 
 # PSM Web Sessions - Microsoft Edge

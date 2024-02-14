@@ -61,6 +61,9 @@ Configuraitons -> Connection Components -> *Connection Component ID* -> Target S
 Change the value for "ClientApp" form Chrome to Edge
 
 Configuraitons -> Connection Components -> *Connection Component ID* -> Target Settings -> Client Specific
-BrowserPath - Value = C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
-RunValidations - Vaule = No
+BrowserPath - Value = 
+
+```
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+```
 EnableTrace - Value = Yes or No
