@@ -10,7 +10,7 @@ Downlaod the PSM Health Check Script
 https://cyberark-customers.force.com/mplace/s/#--PSM+Health+check
 
 Download .NET Core Runtime 6.0.X
-https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-6.0.12-windows-hosting-bundle-installer
+https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 
 ### Run the HealthCheck.ps1 script
 ``` powershell
