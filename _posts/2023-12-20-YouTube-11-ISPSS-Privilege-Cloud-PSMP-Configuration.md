@@ -117,6 +117,8 @@ sudo service psmpsrv restart
 ```
 
 #### Troubleshooting
+
+This command dispalys a live monitor of the PSMTrace log
 ```
 sudo tail -f /var/opt/CARKpsmp/logs/PSMPTrace.log
 ```
