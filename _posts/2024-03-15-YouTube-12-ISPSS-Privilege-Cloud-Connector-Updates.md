@@ -1,8 +1,8 @@
 ---
 title: "#12 - CyberArk Privilege Cloud | Connector Updates 14.1"
 date: 2024-03-15 10:10:10 +1100
-categories: [Privilege Cloud,CPM,PSM,PSMP,]
-tags: [cyberark,privilegecloud,cpm,psm,psmp]     # TAG names should always be lowercase
+categories: [Privilege Cloud,Connector Management,CPM,PSM,PSMP,]
+tags: [cyberark,privilegecloud,connectormanagement,cpm,psm,psmp]     # TAG names should always be lowercase
 ---
 
 This video covers the process to updating the windows CyberArk connector server via Connector Management and unix PSMP.
@@ -21,6 +21,10 @@ This video covers the process to updating the windows CyberArk connector server 
 
 The CyberArk documenation can be found [here.](https://docs.cyberark.com/privilege-cloud-shared-services/Latest/en/Content/Privilege%20Cloud/PrivCloud-upgrade-connector-12.7-later-CM.htm)
 
+Backup Group Policy command
+```
+gpresult /h C:\CyberArk\PolicyBeforeUpgrade.html
+```
 You can find the latest psmpwiz scritps at this [GitHub page](https://github.com/pCloudServices/psmpwiz). Copy the RAW link for the relvant version.
 
 In the video we used the follwoing script for version 14.1
