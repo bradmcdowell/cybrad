@@ -19,5 +19,13 @@ This video covers the process to update the windows and unix CyberArk connectors
 - Update Identity Connector
 - Update PSMP
 
+You can find the latest psmpwiz scritps at this [GitHub page](https://github.com/pCloudServices/psmpwiz). Copy the RAW link for the relvant version.
+
+I the video i used the follwoing for version 14.1
+
+```
+https://raw.githubusercontent.com/pCloudServices/psmpwiz/main/psmpwiz1410.sh
+```
+
 # Timeline
 - Intro 0:00
