@@ -1,8 +1,8 @@
 ---
 title: "#13 - Switch CPM From Primary To DR Connector"
 date: 2024-05-09 10:10:10 +1100
-categories: [Privilege Cloud,Connector Management,CPM,,]
-tags: [cyberark,privilegecloud,connectormanagement,cpm,]     # TAG names should always be lowercase
+categories: [Privilege Cloud,Connector Management,CPM]
+tags: [cyberark,privilegecloud,connectormanagement,cpm]     # TAG names should always be lowercase
 ---
 
 This video covers the process of switching the CPM from Primary to DR.
@@ -20,6 +20,13 @@ This video covers the process of switching the CPM from Primary to DR.
 [CyberArk Documentation - SyncComponentUsers utility](https://docs.cyberark.com/privilege-cloud-shared-services/Latest/en/Content/PASIMP/SystemHealth.htm?Highlight=system%20health#RestoreconnectionforCPM)
 
 [CyberArk Documentation - Switch between the primary and DR CPMs](https://docs.cyberark.com/privilege-cloud-shared-services/Latest/en/Content/Privilege%20Cloud/PrivCloud-CPM-DR-switch.htm)
+
+Add to vault.ini
+
+```
+[API]
+Addresses=https://subdomain.privilegecloud.cyberark.cloud/passwordvault
+```
 
 # Timeline
 - Intro 0:00
