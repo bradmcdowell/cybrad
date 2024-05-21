@@ -32,6 +32,13 @@ This video covers the Windows connector install with a proxy configuraiton.
 
 [Proxy Configuration in Privilege Cloud](https://cyberark.my.site.com/s/article/Proxy-Configuration-in-Privilege-Cloud)
 
+#### .NET machine.config
+
+```
+notepad C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\machine.config
+notepad C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config
+```
+
 # Timeline
 - Intro 0:00
 - Lab Overview 1:08
