@@ -32,6 +32,15 @@ This video covers the Windows connector install with a proxy configuraiton.
 
 [Proxy Configuration in Privilege Cloud](https://cyberark.my.site.com/s/article/Proxy-Configuration-in-Privilege-Cloud)
 
+
+#### Curl Proxy testing commands
+
+```
+.\curl -v https://cybrad.cyberark.cloud --proxy http://webproxy.cybrad.au:3128
+.\curl -v https://connector-cybrad.privilegecloud.cyberark.cloud --proxy http://webproxy.cybrad.au:3128
+.\curl -v https://console.privilegecloud.cyberark.cloud --proxy http://webproxy.cybrad.au:3128
+```
+
 #### .NET machine.config
 
 ```
