@@ -7,7 +7,7 @@ tags: [cyberark,privilegecloud,connectormanagement,cpm]     # TAG names should a
 
 This video covers the process of switching the CPM from Primary to DR.
 
-[![Video Preview](https://i.ytimg.com/vi/fsGSHLYtafM/maxresdefault.jpg)](https://www.youtube.com/watch?v=fsGSHLYtafM)
+[![Video Preview](https://i.ytimg.com/vi/U2v7-9X6vUQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=U2v7-9X6vUQ)
 
 ## Objectives
 - ApiKeyManager.exe removed from CPM 14.2+
