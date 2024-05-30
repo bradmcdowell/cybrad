@@ -1,6 +1,6 @@
 ---
 title: "#14 - CPM / PSM Create Cred File Helper"
-date: 2024-05-09 10:10:10 +1100
+date: 2024-05-30 10:10:10 +1100
 categories: [Privilege Cloud,CPM,PSM]
 tags: [cyberark,privilegecloud,cpm,psm]     # TAG names should always be lowercase
 ---
