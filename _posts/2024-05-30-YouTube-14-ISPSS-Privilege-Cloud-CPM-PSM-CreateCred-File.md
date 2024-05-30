@@ -7,7 +7,7 @@ tags: [cyberark,privilegecloud,cpm,psm]     # TAG names should always be lowerca
 
 This video covers the process of restoring connectivity for the CPM and PSM using the CreateCredFile-Helperr.ps1 script.
 
-[![Video Preview](https://i.ytimg.com/vi/fsGSHLYtafM/maxresdefault.jpg)](https://www.youtube.com/watch?v=fsGSHLYtafM)
+[![Video Preview](https://i.ytimg.com/vi/U2v7-9X6vUQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=U2v7-9X6vUQ)
 
 ## Objectives
 - Demo CreateCredFile-Helper.ps1
