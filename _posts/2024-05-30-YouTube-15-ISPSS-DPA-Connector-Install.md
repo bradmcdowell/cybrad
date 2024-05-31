@@ -5,7 +5,7 @@ categories: [Privilege Cloud,DPA]
 tags: [cyberark,privilegecloud,dpa]     # TAG names should always be lowercase
 ---
 
-This video covers the process of installing DPA connectors, Configuring the HTML5 Gatway and how to use DPA with vaulted credentials.
+This video covers the process of installing DPA connectors, Configuring the HTML5 Gateway and how to use DPA with vaulted credentials.
 
 [![Video Preview](https://i.ytimg.com/vi/K9HAzIJBM8U/maxresdefault.jpg)](https://www.youtube.com/watch?v=K9HAzIJBM8U)
 
@@ -20,6 +20,8 @@ This video covers the process of installing DPA connectors, Configuring the HTML
 [CyberArk Documentation - DPA Network Requirements](https://docs.cyberark.com/DPA/Latest/en/Content/Introduction/dpa_network-requirements.htm)
 
 [Create HTML5 Gateway Ceftificate](https://youtu.be/embTrLbKSl8?t=79)
+
+[Script to create self-signed HTML5 Gateway certificate](https://cybrad.au/posts/Setup-PSM-Certificate-for-PSM-Gateway/)
 
 # Timeline
 - Intro 0:00
