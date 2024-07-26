@@ -47,22 +47,31 @@ In order to grant your reconcile account the ability to change the password for 
 The following script modifies the AdminSDHolder template.
 
 ``` powershell
-# This script will set the minimum permissions for the reconcile Group
+# This script will set the minimum permissions for the reconcile account
 
-# Set the AD group that will be used fo Reconcile
-$ReconcileGroup = "CYBR\grp_CA_Reconcile"
+# Set the AD account that will be used fo Reconcile
+$ReconcileAccount = "<Domain>\<ReconcileUser>"
 
 # This gets the AD domain in DN format
 $DistinguishedName = (Get-ADDomain).DistinguishedName
 Write-host "Domain OU is =" $DistinguishedName
 
+# Domain Permissions
+dsacls.exe $DistinguishedName /i:S /G $ReconcileAccount":CA;Reset Password;user"
+dsacls.exe $DistinguishedName /i:S /G $ReconcileAccount":WD"
+dsacls.exe $DistinguishedName /i:S /G $ReconcileAccount":WPRP;LockoutTime;user"
+dsacls.exe $DistinguishedName /i:S /G $ReconcileAccount":WPRP;account restrictions;user"
+
 # This gets the AdminSDHolder DN
 $AdminSDHolerDN = "CN=AdminSDHolder,CN=System,"+$DistinguishedName
 Write-host "AdminSDHolder DN is =" $AdminSDHolerDN
 
-# The follwoing command will allow the Reconcile group to rest passwords on the AdminSDHolder template
-dsacls.exe $AdminSDHolerDN /G $ReconcileGroup":CA;Reset Password"
+# AdminSDHolder Template
+dsacls.exe $AdminSDHolerDN /G $ReconcileAccount":CA;Reset Password"
+dsacls.exe $AdminSDHolerDN /G $ReconcileAccount":WD"
+dsacls.exe $AdminSDHolerDN /G $ReconcileAccount":RP;LockoutTime"
+dsacls.exe $AdminSDHolerDN /G $ReconcileAccount":WP;LockoutTime"
+dsacls.exe $AdminSDHolerDN /G $ReconcileAccount":RP;account restrictions"
+dsacls.exe $AdminSDHolerDN /G $ReconcileAccount":WP;account restrictions"
 
-# The follwoing command well allow the Reconcile group to unlock User accounts  on the AdminSDHolder template
-dsacls.exe $AdminSDHolerDN /G $ReconcileGroup":RP;LockoutTime" $ReconcileGroup":WP;LockoutTime"
 ```
