@@ -20,6 +20,8 @@ This video covers the process setting up reconcile accounts for CyberArk.
 
 [CyberArk KB - How to Reconcile a Domain Admin Account Without Domain Admin Membership for the Reconcile Account](https://community.cyberark.com/s/article/How-to-Reconcile-a-Domain-Admin-Account-Without-Domain-Admin-Membership-for-the-Reconcile-Account)
 
+## Active-Directory CyberArk Reconcile Permissions Script
+
 ``` powershell
 # This script will set the minimum permissions for the reconcile account
 
@@ -48,6 +50,10 @@ dsacls.exe $AdminSDHolerDN /G $ReconcileAccount":WP;LockoutTime"
 dsacls.exe $AdminSDHolerDN /G $ReconcileAccount":RP;account restrictions"
 dsacls.exe $AdminSDHolerDN /G $ReconcileAccount":WP;account restrictions"
 ```
+
+# Extra Information on permission inheritance
+Clear adminCount and Enable Inheritance on User
+https://notesbytom.wordpress.com/2017/12/01/clear-admincount-and-enable-inheritance-on-user/
 
 # Timeline
 - Intro 0:00
