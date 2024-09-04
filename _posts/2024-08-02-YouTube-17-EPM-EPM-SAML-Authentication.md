@@ -19,6 +19,12 @@ The [Cyberark EPM Configure authentication via SAML documentation.](https://docs
 
 Link to [EPM-User-Binding script](https://community.cyberark.com/s/question/0D5Ht00009pF6RwKAK/cyberark-identity-epm-configuration)
 
+## Example SAML Attribute
+
+```
+setAttribute('EPM-User-Binding','[{"R":"00000000-0000-0000-0000-000000000005","S":["All"]}]');
+```
+
 # Timeline
 - Intro 0:00
 - EPM Overview 0:36
