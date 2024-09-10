@@ -41,18 +41,24 @@ EPM_PAS_Gateway
 ```
 
 # EPM Agent Commands
-
+Use this command to monitor the EPM agent log.
 ``` powershell
 cat -wait -tail 100 "C:\Program Files\CyberArk\Endpoint Privilege Manager\Agent\PASAgent\Trace\PASAgentLog.txt"
 ```
-
+Use the fllowing commands to stop the EPM agent and force 
 ```
 cd 'C:\Program Files\CyberArk\Endpoint Privilege Manager\Agent\'
 .\vf_agent.exe -UseToken <Generated_Secure_Token>
 .\vf_agent -StopServ
+.\vf_agent.exe -ImmediateLCDRotation
 ```
+Start EPM agent via services.msc
 
-## Install EPM Agent Script
+## PowerShell EPM Agent Install Script
+This is a sample script that can be used to install the EPM agent. There are many other ways to automate the EPM agent install.
+Please find the more information here. [CyberArk Docs - Install EPM agents on Windows endpoints](https://docs.cyberark.com/epm/latest/en/Content/Installation/Windows-InstallAgents.htm#InstallEPMagentsonWindowsendpoints)
+
+
 
 ``` powershell
 $filepath = "C:\Program Files\CyberArk\Endpoint Privilege Manager\Agent\vf_agent.exe"
