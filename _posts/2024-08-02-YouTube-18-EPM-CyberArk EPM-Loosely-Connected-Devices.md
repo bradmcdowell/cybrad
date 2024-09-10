@@ -28,13 +28,13 @@ This video covers the process of configuring CyberArk EPM to support rotating lo
 
 
 ## PVWA Server URL Format
+This is the PVWA URL format that is required when creating the Credentials Rotation Policy in EPM.
 ```
-https://<subdomain>.privilegecloud.cyberark.cloud
+https://<subdomain>.privilegecloud.cyberark.cloud/
 ```
 
 
 # EPM LCD KEY Platform
-
 This is the username and account name for the EPM LCD Key to be used in Privilege Cloud.
 ```
 EPM_PAS_Gateway
@@ -45,7 +45,7 @@ Use this command to monitor the EPM agent log.
 ``` powershell
 cat -wait -tail 100 "C:\Program Files\CyberArk\Endpoint Privilege Manager\Agent\PASAgent\Trace\PASAgentLog.txt"
 ```
-Use the fllowing commands to stop the EPM agent and force 
+Use the fllowing commands to stop the EPM agent and force LCD account rotation.
 ```
 cd 'C:\Program Files\CyberArk\Endpoint Privilege Manager\Agent\'
 .\vf_agent.exe -UseToken <Generated_Secure_Token>
