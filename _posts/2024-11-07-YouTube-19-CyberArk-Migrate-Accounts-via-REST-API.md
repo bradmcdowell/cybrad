@@ -33,16 +33,16 @@ Import-Module "C:\Migration\epv-api-scripts-main\Identity Authentication\Identit
 cat ./platformlist.txt
 #$SourceUPCred = get-credential
 mkdir ./PLATFORMZIPS/
-C:\Migration\epv-api-scripts-main\Platforms\Export-Import-Platform.ps1 -PVWAURL https://comp01.cybr.com/PasswordVault/ -ExportFile -ListFile ./platformlist.txt -PlatformZipPath ./PLATFORMZIPS/
+C:\Migration\epv-api-scripts-main\Platforms\Export-Import-Platform.ps1 -PVWAURL https://<SourcePVWA>/PasswordVault/ -ExportFile -ListFile ./platformlist.txt -PlatformZipPath ./PLATFORMZIPS/
 
 # Import Platforms
 $DestUPCred = get-credential
 $header = Get-IdentityHeader -IdentityTenantURL aba4383.id.cyberark.cloud -UPCreds $DestUPCred
-C:\Migration\epv-api-scripts-main\Platforms\Export-Import-Platform.ps1 -ImportFile -PVWAURL https://cybrad.privilegecloud.cyberark.cloud/PasswordVault -ListFile ./PLATFORMZIPS/_Exported.txt -LogonToken $header
+C:\Migration\epv-api-scripts-main\Platforms\Export-Import-Platform.ps1 -ImportFile -PVWAURL https://<subdomain>.privilegecloud.cyberark.cloud/PasswordVault -ListFile ./PLATFORMZIPS/_Exported.txt -LogonToken $header
 
 # Source PVWA Auth
 $SourceUPCred = get-credential
-New-SourceSession -srcPVWAURL https://comp01.cybr.com/PasswordVault/ -srcAuthType LDAP -srcPVWACredentials $SourceUPCred
+New-SourceSession -srcPVWAURL https://<SourcePVWA>/PasswordVault/ -srcAuthType LDAP -srcPVWACredentials $SourceUPCred
 
 # Export Accounts from Source
 Export-Accounts -exportCSV ./export.csv
@@ -60,8 +60,8 @@ Import-Accounts -importCSV ./FailedAccounts.csv
 
 # Destination PVWA Auth
 $DestUPCred = get-credential
-$header = Get-IdentityHeader -IdentityTenantURL aba4383.id.cyberark.cloud -UPCreds $DestUPCred
-New-DestinationSession -dstPVWAURL https://cybrad.privilegecloud.cyberark.cloud/PasswordVault -dstLogonToken $header
+$header = Get-IdentityHeader -IdentityTenantURL <identityID>.id.cyberark.cloud -UPCreds $DestUPCred
+New-DestinationSession -dstPVWAURL https://<subdomain>.privilegecloud.cyberark.cloud/PasswordVault -dstLogonToken $header
 
 # Sync Safes
 Sync-Safes -CreateSafes -CPMOverride "PROD-CPM"
