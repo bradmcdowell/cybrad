@@ -5,9 +5,9 @@ categories: [CyberArk Privilege Cloud]
 tags: [cyberark,privilegecloud,API]     # TAG names should always be lowercase
 ---
 
-This video covers the process of migrating Platforms, Safes and Accounts using the API
+This video covers the process of migrating Platforms, Safes and Accounts using the API.
 
-[![Video Preview](https://i.ytimg.com/vi/V-Wh519vYFw/maxresdefault.jpg)](https://www.youtube.com/watch?v=V-Wh519vYFw)
+[![Video Preview](https://i.ytimg.com/vi/tPucVKyBqGY/maxresdefault.jpg)](https://www.youtube.com/watch?v=tPucVKyBqGY)
 
 ## Objectives
 - Migrate Platforms via REST API
@@ -18,8 +18,7 @@ This video covers the process of migrating Platforms, Safes and Accounts using t
 
 [Cyberark epv-api-scripts](https://github.com/cyberark/epv-api-scripts/tree/main/Migration/Migration%20via%20REST)
 
-
-## PowerShell Commnads
+## PowerShell Commnads Used
 
 ```powershell
 # Download GitHub repo https://github.com/cyberark/epv-api-scripts
@@ -76,4 +75,6 @@ Get-AccountList
 
 # Timeline
 - Intro 0:00
-- Setup EPM Credentials Rotation Policy 2:10
+- Migrate Platforms 1:17
+- Migrate Safes 5:39
+- Migrate Accounts 9:55
