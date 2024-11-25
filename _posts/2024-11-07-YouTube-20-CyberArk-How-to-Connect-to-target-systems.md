@@ -1,5 +1,5 @@
 ---
-title: "#20 - CyberArk - How to Connect to target systems"
+title: "#20 - CyberArk - How to connect to target systems"
 date: 2024-11-25 9:10:10 +1100
 categories: [CyberArk Privilege Cloud]
 tags: [cyberark,privilegecloud,SIA,PSM]     # TAG names should always be lowercase
