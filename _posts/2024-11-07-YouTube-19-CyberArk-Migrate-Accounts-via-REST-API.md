@@ -40,7 +40,7 @@ C:\Migration\epv-api-scripts-main\Platforms\Export-Import-Platform.ps1 -PVWAURL 
 
 # Import Platforms
 $DestUPCred = get-credential
-$header = Get-IdentityHeader -IdentityTenantURL aba4383.id.cyberark.cloud -UPCreds $DestUPCred
+$header = Get-IdentityHeader -IdentityTenantURL <Your_Tenant_Identity_ID>.id.cyberark.cloud -UPCreds $DestUPCred
 C:\Migration\epv-api-scripts-main\Platforms\Export-Import-Platform.ps1 -ImportFile -PVWAURL https://<subdomain>.privilegecloud.cyberark.cloud/PasswordVault -ListFile ./PLATFORMZIPS/_Exported.txt -LogonToken $header
 
 # Source PVWA Auth
