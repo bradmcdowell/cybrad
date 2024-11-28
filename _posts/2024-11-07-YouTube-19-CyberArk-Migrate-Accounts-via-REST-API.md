@@ -33,7 +33,10 @@ Import-Module "C:\Migration\epv-api-scripts-main\Identity Authentication\Identit
 cat ./platformlist.txt
 #$SourceUPCred = get-credential
 mkdir ./PLATFORMZIPS/
+# If auth is CyberArk use this to export platforms
 C:\Migration\epv-api-scripts-main\Platforms\Export-Import-Platform.ps1 -PVWAURL https://<SourcePVWA>/PasswordVault/ -ExportFile -ListFile ./platformlist.txt -PlatformZipPath ./PLATFORMZIPS/
+# If auth is LDAP use this to export platforms
+C:\Migration\epv-api-scripts-main\Platforms\Export-Import-Platform.ps1 -PVWAURL https://<SourcePVWA>/PasswordVault/ -ExportFile -ListFile ./platformlist.txt -PlatformZipPath ./PLATFORMZIPS/ -AuthType ldap
 
 # Import Platforms
 $DestUPCred = get-credential
