@@ -7,7 +7,7 @@ tags: [cyberark,cyberarkmarketplace,privilegecloud,powershell,scripts]     # TAG
 
 This video explores handy scripts bundled with the CyberArk Privilege Cloud Tools package found in the CyberArk Marketplace.
 
-[![Video Preview](https://i.ytimg.com/vi/v_rMFGGP3Jk/maxresdefault.jpg)](https://www.youtube.com/watch?v=v_rMFGGP3Jk)
+[![Video Preview](https://i.ytimg.com/vi/banxhCx306M/maxresdefault.jpg)](https://www.youtube.com/watch?v=banxhCx306M)
 
 ## CyberArk Marketplace
 Download [CyberArk Privilege Cloud Tools](https://community.cyberark.com/marketplace/s/#a352J000000GWAZQA4-a392J000002tNgLQAU) found at the CyberArk Marketplace.
@@ -30,3 +30,7 @@ DeleteUsersFromVault.ps1 -PortalURL https://<subdomain>.cyberark.cloud
 ```
 # Timeline
 - Intro 0:00
+- Get Orphaned Safes 2:07
+- License Capacity and Users Login Activity 5:22
+- Sync Identity Roles With Vault Users 7:23
+- Delete Users 10:07
