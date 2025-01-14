@@ -5,7 +5,7 @@ categories: [CyberArk Central Credential Provider]
 tags: [cyberark,cyberarkccp,privilegecloud,powershell,curl,tls,scripts]     # TAG names should always be lowercase
 ---
 
-This video explores the CyberArk Central Credental Provider.
+In this video, you'll learn how to install the CyberArk Central Credential Provider (CCP) and perform thorough testing using PowerShell and curl. Additionally, I'll guide you through configuring the Qualys Cloud Platform to securely retrieve secrets from the CyberArk CCP.
 
 [![Video Preview](https://i.ytimg.com/vi/oqTVoaRn9Qo/maxresdefault.jpg)](https://www.youtube.com/watch?v=oqTVoaRn9Qo)
 
@@ -71,13 +71,13 @@ curl --http1.1 --cert cert.pem --key key.pem "https://CCPURL.company.com/AIMWebS
 - Install CCP on CCP1 3:08
 - Install CCP on CCP2 12:42
 - Add Applications 13:30
-- Safe Permissions 15:53 
+- Safe Permissions 15:53
 - Add Account 18:29
-- Test with Powershell 21:13
-- Setup Certficate Template and Request Cert 22:06
-- Update Applicaiton 23:39
-- Test Powershell with Cert auth 25:13
-- Export certifcate 27:23
+- Test with PowerShell 21:13
+- Setup certificate Template and Request Cert 22:06
+- Update Application 23:39
+- Test PowerShell with Cert auth 25:13
+- Export certificate 27:23
 - Convert certificate with OpenSSL 29:58
 - Test CCP with Curl 32:31
 - Qualys Setup and Testing
