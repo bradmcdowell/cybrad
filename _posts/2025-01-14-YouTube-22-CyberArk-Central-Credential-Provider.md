@@ -14,6 +14,7 @@ Download [CyberArk Central Credential Provider](https://community.cyberark.com/m
 
 ## CyberArk Central Credential Provider Docs
 [Central Credential Provider (CCP)](https://docs.cyberark.com/credential-providers/latest/en/content/ccp/the-central%20-credential-provider.htm)
+
 [Load balance the Central Credential Provider](https://docs.cyberark.com/credential-providers/latest/en/content/ccp/load-balancing-the-central-credential-provider.htm)
 
 ## Disable TLS 1.3 over TCP
