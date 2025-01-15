@@ -12,12 +12,15 @@ In this video, you'll learn how to install the CyberArk Central Credential Provi
 ## CyberArk Marketplace
 Download [CyberArk Central Credential Provider](https://community.cyberark.com/marketplace/s/#software-aK4Ht000000L675KAC-) found at the CyberArk Marketplace.
 
-## CyberArk Central Credential Provider Doccs
+## CyberArk Central Credential Provider Docs
 [Central Credential Provider (CCP)](https://docs.cyberark.com/credential-providers/latest/en/content/ccp/the-central%20-credential-provider.htm)
+[Load balance the Central Credential Provider](https://docs.cyberark.com/credential-providers/latest/en/content/ccp/load-balancing-the-central-credential-provider.htm)
 
 ## Disable TLS 1.3 over TCP
 Microsoft Blog - [Windows Server 2022 IIS web site TLS 1.3 does not work with client certificate authentication](https://techcommunity.microsoft.com/blog/iis-support-blog/windows-server-2022-iis-web-site-tls-1-3-does-not-work-with-client-certificate-a/4129738)
+
 Microsoft A&A - [Requests to IIS with SSLCertNegotiate and TLS 1.3 is failing](https://learn.microsoft.com/en-us/answers/questions/1628012/requests-to-iis-with-sslcertnegotiate-and-tls-1-3)
+
 Tennable Docs [Tennable Documentation](https://community.tenable.com/s/feed/0D5WP00000MkXmz0AF?language=en_US)
 
 
