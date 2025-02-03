@@ -5,11 +5,7 @@ categories: [Privilege Cloud,PSM,PSMP,Health Check]
 tags: [cyberark,privilegecloud,psm,psmp,haproxy]     # TAG names should always be lowercase
 ---
 
-This video covers the PSM Health check
-
-<!---
-[<img src="https://i.ytimg.com/vi/SeP7JISnF-s/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=SeP7JISnF-s)
---->
+This video covers the PSM Health check.
 
 [![Video Preview](https://i.ytimg.com/vi/SeP7JISnF-s/maxresdefault.jpg)](https://www.youtube.com/watch?v=SeP7JISnF-s)
 
@@ -27,7 +23,7 @@ This video covers the PSM Health check
 
 [PSM Health Check Installation](https://cyberark.my.site.com/s/article/PSM-Health-Check-Installation)
 
-[Download IIS .NET 6.0 Hosting Bundle](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+[Download .NET 8.0 Hosting Bundle](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 [CyberArk MarketPlace - PSM Health check](https://cyberark.my.site.com/mplace/s/#a352J000000ai0MQAQ-a392J000002QBA6QAO)
 
