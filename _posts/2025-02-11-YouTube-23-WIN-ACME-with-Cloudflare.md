@@ -9,7 +9,7 @@ In this video, you'll discover how to create a Let's Encrypt SSL certificate for
 [![Video Preview](https://i.ytimg.com/vi/rJ6dVavJsTc/maxresdefault.jpg)](https://www.youtube.com/watch?v=rJ6dVavJsTc)
 
 ## Download links
-Download [the larger, plugin support](https://www.win-acme.com/) file and the [Cloudflare Plugin](https://github.com/win-acme/win-acme/releases/) from the GitHub releases page.
+Download [WIN-ACME: the larger, plugin support](https://www.win-acme.com/) file and the [Cloudflare Plugin](https://github.com/win-acme/win-acme/releases/) from the GitHub releases page.
 
 ## Cloudflare API Token
 Create your cloudflare API token [here](https://dash.cloudflare.com/profile/api-tokens).
