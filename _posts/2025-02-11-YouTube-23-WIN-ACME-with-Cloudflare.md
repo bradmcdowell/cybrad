@@ -14,6 +14,9 @@ Download [WIN-ACME: the larger, plugin support](https://www.win-acme.com/) file 
 ## Cloudflare API Token
 Create your cloudflare API token [here](https://dash.cloudflare.com/profile/api-tokens).
 
+## Venafi TLS Protect ACME integration - Win-ACME client
+https://www.youtube.com/watch?v=vTjR8JY5TEU
+
 ## Objectives:
 - Download WIN-ACME and Cloudflare plugin
 - Create a Cloudflare API token
