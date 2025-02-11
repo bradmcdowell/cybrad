@@ -4,7 +4,6 @@ date: 2025-02-11 14:10:10 +1100
 categories: [WIN-ACME]
 tags: [IIS,WIN-ACME,Cloudflare,Letsencrypt,automation]     # TAG names should always be lowercase
 ---
-
 In this video, you'll discover how to create a Let's Encrypt SSL certificate for Windows IIS effortlessly. We'll walk you through automating the process using WIN-ACME and leverage Cloudflare DNS for seamless domain validation. Secure your website with ease—let's get started!
 
 [![Video Preview](https://i.ytimg.com/vi/rJ6dVavJsTc/maxresdefault.jpg)](https://www.youtube.com/watch?v=rJ6dVavJsTc)
