@@ -9,13 +9,23 @@ In this video, you'll explore the CyberArk ISPSS Privilege Cloud architecture. Y
 [![Video Preview](https://i.ytimg.com/vi/rJ6dVavJsTc/maxresdefault.jpg)](https://www.youtube.com/watch?v=rJ6dVavJsTc)
 
 ## CyberArk Docs
-CyberArk docs [Privilege Cloud Architecture](https://docs.cyberark.com/privilege-cloud-shared-services/latest/en/content/privilege%20cloud/privcloud-detailed-architecture.htm)
+CyberArk docs [Privilege Cloud Architecture](https://docs.cyberark.com/privilege-cloud-shared-services/latest/en/content/privilege%20cloud/privcloud-detailed-architecture.htm) has a detailed description of all the components.
 
 ## High-Level Architecture Diagram 
-TBC
+The below diagram is a high level overview on how a typical environment will connecto to CyberArk Privilege Cloud ISPSS.
+
+
+![image](https://raw.githubusercontent.com/bradmcdowell/cybrad/main/assets/img/CyberArk-High-Level.png)
+
 
 ## Low-Level Architecture Diagram 
-TBC
+This low-level diagram is an example scenario where Active-Directory is the source for identities.
+
+![image](https://raw.githubusercontent.com/bradmcdowell/cybrad/main/assets/img/CyberArk-Low-Level-Identity-AD.png)
+
+This low-level diagram is an example scenario where an external IdP is the source for identities.
+![image](https://raw.githubusercontent.com/bradmcdowell/cybrad/main/assets/img/CyberArk-Low-Level-External-IdP.png)
+
 
 ## Objectives:
 -  High-level deployment overview
