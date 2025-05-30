@@ -28,6 +28,11 @@ description: >- # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://cybrad.au"
 
+# Added this 30/05/2025 for troubleshooting
+search:
+  enabled: true
+
+
 github:
   username: bradmcdowell # change to your github username
 
@@ -194,3 +199,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
