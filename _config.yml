@@ -200,3 +200,12 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+# Added this entire section 3/6/2025
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-include-cache
+
+
