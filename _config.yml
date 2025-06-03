@@ -32,6 +32,8 @@ url: "https://cybrad.au"
 search:
   enabled: true
 
+include:
+  - assets
 
 github:
   username: bradmcdowell # change to your github username
