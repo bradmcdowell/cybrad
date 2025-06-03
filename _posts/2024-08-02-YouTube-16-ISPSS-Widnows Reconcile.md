@@ -17,13 +17,12 @@ This video covers the process setting up reconcile accounts for CyberArk.
 - Onboard Server localadmin account.
 - Additional Information – What to look out for and what not to do.
 
-
 [CyberArk KB - How to Reconcile a Domain Admin Account Without Domain Admin Membership for the Reconcile Account](https://community.cyberark.com/s/article/How-to-Reconcile-a-Domain-Admin-Account-Without-Domain-Admin-Membership-for-the-Reconcile-Account)
 
 ## Active-Directory CyberArk Reconcile Permissions Script
 
 ``` powershell
-# This script will set the minimum permissions for the reconcile account
+# This script will set the minimum permissions for the reconcile account.
 
 # Set the AD account that will be used fo Reconcile
 $ReconcileAccount = "<Domain>\<ReconcileUser>"
