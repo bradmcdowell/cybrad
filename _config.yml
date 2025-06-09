@@ -28,13 +28,6 @@ description: >- # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://cybrad.au"
 
-# Added this 30/05/2025 for troubleshooting
-search:
-  enabled: true
-
-include:
-  - assets
-
 github:
   username: bradmcdowell # change to your github username
 
@@ -110,17 +103,12 @@ comments:
     reactions_enabled: # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
-# assets:
-#   self_host:
-#     enabled: # boolean, keep empty means false
-#     # specify the Jekyll environment, empty means both
-#     # only works if `assets.self_host.enabled` is 'true'
-#     env: # [development|production]
-
 assets:
   self_host:
-    enabled: true
-    env: 
+    enabled: # boolean, keep empty means false
+    # specify the Jekyll environment, empty means both
+    # only works if `assets.self_host.enabled` is 'true'
+    env: # [development|production]
 
 pwa:
   enabled: true # the option for PWA feature
@@ -206,13 +194,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-# Added this entire section 3/6/2025
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-include-cache
-
-
